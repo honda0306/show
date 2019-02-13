@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 import headshot from '../images/formal_headshot.jpg'
+import lodgel from '../images/lodgel.jpg'
+import compound from '../images/compound.jpg'
 
 class Main extends React.Component {
   render() {
@@ -25,14 +26,14 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio</h2>
-          <h3>Lodgel</h3>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <h2>Lodgel</h2>
+          <span className="image main"><img src={lodgel} alt="" /></span>
           <p>Lambda School Capstone project. Facilitates short-term property rentals by coordinating turnover assistants and individual property requirements, and features checkout through Stripe.</p>
           <p>Built in React, Node, and Postgres, and experimentation with React Hooks and TypeScript.</p>
-          <h3>Compound</h3>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <h2>Compound</h2>
+          <span className="image main"><img src={compound} alt="" /></span>
+          <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income.</p>
+          <p>Built in React and Redux.</p>
           {close}
         </article>
 
