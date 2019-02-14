@@ -39,8 +39,18 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={headshot} alt="" /></span>
-          <p>This is me.</p>
+          <h3 className="major">Resume</h3>
+          <ul>
+            <li><a href='https://resume.creddle.io/resume/h6uzm4ghs2y'>Link to Resume</a></li>
+          </ul>
+
+          {/* <h3 className="major">Education</h3>
+          <ul>
+            <li>Lambda School || Certificate in Software Development || February 2019</li>
+            <li>Maryville University || M.S. in Cybersecurity (4.0 GPA) || December 2019</li>
+            <li>Brigham Young University || B.A. in Asian Studies || April 2017</li>
+          </ul> */}
+          {/* <span className="image"><img src={headshot} alt="" /></span> */}
           {close}
         </article>
 
