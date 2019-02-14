@@ -15,14 +15,14 @@ class Main extends React.Component {
 
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
-
+        {/* Commented out since the intro section is not in use
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={headshot} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <span className="image main"><img src={pic02} alt="" /></span>
+          <p>This is an explanation.</p>
+          <p>This is cool.</p>
           {close}
-        </article>
+        </article> */}
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio</h2>
@@ -32,14 +32,14 @@ class Main extends React.Component {
           <p>Built in React, Node, and Postgres, and experimentation with React Hooks and TypeScript.</p>
           <h2>Compound</h2>
           <span className="image main"><img src={compound} alt="" /></span>
-          <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income.</p>
+          <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income and visualizes the comparison of income against one's current earnings.</p>
           <p>Built in React and Redux.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          <span className="image main"><img src={headshot} alt="" /></span>
           <p>This is me.</p>
           {close}
         </article>
