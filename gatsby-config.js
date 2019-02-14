@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Chris Honda | 本田 | Portfolio",
-    author: "Hunter Chang",
+    author: "Chris Honda",
     description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
   },
   plugins: [
