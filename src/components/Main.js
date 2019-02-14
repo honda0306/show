@@ -35,13 +35,9 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
-          <h3 className="major">Languages and Technologies</h3>
-          <ul>
-            <i className="icon fab fa-react"></i>
-          </ul>
           <h3 className="major">Resume</h3>
           <ul>
-            <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank">Link to Resume</a></li>
+            <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank" rel="noopener noreferrer">Link to Resume</a></li>
           </ul>
 
           {/* <h3 className="major">Education</h3>
@@ -80,9 +76,9 @@ class Main extends React.Component {
           <h3>Phone:</h3>
           <p>(916) 709-8892</p>
           <ul className="icons">
-            <li><a href="https://twitter.com/chrishonda0716" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="https://linkedin.com/in/ichirohonda" target="_blank" className="icon fa-linkedin"><span className="label">Instagram</span></a></li>
-            <li><a href="https://github.com/honda0306" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/chrishonda0716" target="_blank" rel="noopener noreferrer" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a href="https://linkedin.com/in/ichirohonda" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">Instagram</span></a></li>
+            <li><a href="https://github.com/honda0306" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
