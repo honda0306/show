@@ -1,10 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
-import headshot from '../images/formal_headshot.jpg'
 import lodgel from '../images/lodgel.jpg'
 import compound from '../images/compound.jpg'
 
@@ -39,6 +35,10 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
+          <h3 className="major">Languages and Technologies</h3>
+          <ul>
+            <i className="icon fab fa-react"></i>
+          </ul>
           <h3 className="major">Resume</h3>
           <ul>
             <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank">Link to Resume</a></li>
