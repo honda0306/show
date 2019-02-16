@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 
 import lodgel from '../images/lodgel.jpg'
 import compound from '../images/compound.jpg'
+import headshot from '../images/headshot.jpg'
+
 
 class Main extends React.Component {
   render() {
@@ -22,19 +24,31 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio</h2>
-          <h2>Lodgel</h2>
+          <a href="https://cleanerpos.netlify.com" target="_blank" rel="noopener noreferrer"><h2 className="link">Lodgel</h2></a>
           <span className="image main"><img src={lodgel} alt="" /></span>
-          <p>Lambda School Capstone project. Facilitates short-term property rentals by coordinating turnover assistants and individual property requirements, and features checkout through Stripe.</p>
-          <p>Built in React, Node, and Postgres, and experimentation with React Hooks and TypeScript.</p>
-          <h2>Compound</h2>
+          <p>Lambda School Capstone project. Facilitates short-term property rentals by coordinating turnover assistants and individual property requirements, and features checkout through Stripe. Built with React Hooks, Node, and Postgres, and TypeScript.</p>
+          <a href="https://cleanerpos.netlify.com" target="_blank" rel="noopener noreferrer">Link to project</a>
+          <br />
+          <br />
+          <a href="https://github.com/Lambda-School-Labs/labs9-cleaner-pos" target="_blank" rel="noopener noreferrer">Link to Github repo (see 'labs9-master' branch)</a>
+          <br />
+          <br />
+          <a href="https://compound.careers" target="_blank" rel="noopener noreferrer"><h2 className="link">Compound</h2></a>
           <span className="image main"><img src={compound} alt="" /></span>
-          <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income and visualizes the comparison of income against one's current earnings.</p>
-          <p>Built in React and Redux.</p>
+          <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income and visualizes the comparison of income against one's current earnings. Built with React and Redux.</p>
+          <a href="compound.careers" target="_blank" rel="noopener noreferrer">Link to project</a>
+          <br />
+          <br />
+          <a href="https://github.com/LambdaWinter19Hackathon-Calculator/Hackathon_Income_Calculator" target="_blank" rel="noopener noreferrer">Link to Github repo</a>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
+          <img className="headshot" src={headshot} alt='' />
+          <p>Certificate in Web Development and Computer Science || Feb. 2019 || Lambda School</p>
+          <p>M.S. in Cybersecurity || Dec. 2019 || Maryville University of Saint Louis</p>
+          <p>B.A. in Asian Studies || Apr. 2017 || Brigham Young University</p>
           <h3 className="major">Resume</h3>
           <ul>
             <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank" rel="noopener noreferrer">Link to Resume</a></li>

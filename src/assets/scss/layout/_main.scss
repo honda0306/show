@@ -32,6 +32,17 @@
 			border-radius: _size(border-radius);
 			opacity: 0;
 
+			.headshot {
+				// height: 10rem;
+				// width: 7.5rem;
+				border-radius: 50px;
+			}
+
+			.link {
+				text-decoration: underline;
+				font-style: italic;
+			}
+
 			&.timeout {
 				display: none;
 			}
