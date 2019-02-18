@@ -33,9 +33,32 @@
 			opacity: 0;
 
 			.headshot {
-				// height: 10rem;
-				// width: 7.5rem;
-				border-radius: 50px;
+				border-radius: 50%;
+				// margin: 0 auto;
+				margin-bottom: 2rem;
+			}
+
+			.bio {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.biotext{
+				display: flex;
+				flex-direction: column;
+				margin: 0 auto;
+				margin-left: 3rem;
+				width: 70%;
+			}
+			.list {
+				// display: flex;
+				// list-style-type: none;
+				columns: 3;
+			}
+
+			.listItem {
+				margin: auto;
+				text-decoration: none;
 			}
 
 			.link {

@@ -44,11 +44,32 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <img className="headshot" src={headshot} alt='' />
-          <p>Certificate in Web Development and Computer Science || Feb. 2019 || Lambda School</p>
-          <p>M.S. in Cybersecurity || Dec. 2019 || Maryville University of Saint Louis</p>
-          <p>B.A. in Asian Studies || Apr. 2017 || Brigham Young University</p>
+          <div className="stack">
+            <h2 className="major">About</h2>
+          </div>
+          <div className="bio">
+            <img className="headshot" src={headshot} alt='' />
+            <div className="biotext">
+              <p>Recent Lambda School graduate, where I learned how to learn about technology.</p>
+              <p>Holder of FINRA Series 7 & 63 licenses, which taught me that some risks are worth taking.</p>
+              <p>Volunteered in South Korea for 2 years, and found that being kind is more important that being smart.</p>
+            </div>
+          </div>
+          <h3 className="major">Languages and Technologies</h3>
+          <ul className="list">
+            <li className="listItem">HTML/CSS</li>
+            <li className="listItem">TypeScript</li>
+            <li className="listItem">Node.js</li>
+            <li className="listItem">Python</li>
+            <li className="listItem">BootStrap/LESS</li>
+            <li className="listItem">React.js</li>
+            <li className="listItem">MongoDB</li>
+            <li className="listItem">C</li>
+            <li className="listItem">JavaScript</li>
+            <li className="listItem">Redux</li>
+            <li className="listItem">GraphQL</li>
+            <li className="listItem">Git</li>
+          </ul>
           <h3 className="major">Resume</h3>
           <ul>
             <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank" rel="noopener noreferrer">Link to Resume</a></li>
