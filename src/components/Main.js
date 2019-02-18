@@ -52,7 +52,7 @@ class Main extends React.Component {
             <div className="biotext">
               <p>Recent Lambda School graduate, where I learned how to learn about technology.</p>
               <p>Holder of FINRA Series 7 & 63 licenses, which taught me that some risks are worth taking.</p>
-              <p>Volunteered in South Korea for 2 years, and found that being kind is more important that being smart.</p>
+              <p>Volunteered in South Korea for 2 years, and found that being kind is more important than being smart.</p>
             </div>
           </div>
           <h3 className="major">Languages and Technologies</h3>
