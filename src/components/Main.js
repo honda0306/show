@@ -13,14 +13,12 @@ class Main extends React.Component {
 
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
-        {/* Commented out since the intro section is not in use
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>This is an explanation.</p>
-          <p>This is cool.</p>
+          <h2 className="major">Blog</h2>
+          {/* <span className="image main"><img src={headshot} alt="" /></span> */}
+          <p>Links to articles and videos will be uploaded shortly.</p>
           {close}
-        </article> */}
+        </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio</h2>
@@ -87,14 +85,14 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          {/* <form method="post" action="#">
+          <form method="POST" action="https://formspree.io/christopher.honda92@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" placeholder="Your email"/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -104,7 +102,7 @@ class Main extends React.Component {
               <li><input type="submit" value="Send Message" className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
-          </form> */}
+          </form>
           <p>I am happy to speak with you about your project requirements. Please feel free to reach out!</p>
           <h3>Email:</h3>
           <p>christopher.honda92@gmail.com</p>
