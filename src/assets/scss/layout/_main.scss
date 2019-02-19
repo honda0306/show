@@ -34,7 +34,6 @@
 
 			.headshot {
 				border-radius: 50%;
-				// margin: 0 auto;
 				margin-bottom: 2rem;
 			}
 
@@ -62,8 +61,12 @@
 			}
 
 			.link {
-				text-decoration: underline;
+				text-decoration: none;
 				font-style: italic;
+				&:hover {
+					text-decoration: underline;
+					color: #aaaaaa;
+				}
 			}
 
 			&.timeout {
@@ -142,4 +145,13 @@
 				@include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
 			}
 		}
+
+		a {
+			border-bottom: none;
+			&:hover {
+				text-decoration: underline;
+				color: #aaaaaa;
+			}
+		}
+
 	}
