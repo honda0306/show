@@ -34,7 +34,7 @@ class Main extends React.Component {
           <a href="https://compound.careers" target="_blank" rel="noopener noreferrer"><h2 className="link">Compound</h2></a>
           <span className="image main"><img src={compound} alt="" /></span>
           <p>Lambda School Winter 2019 Hackathon || Winner of Most Beautiful Visualization. Calculator that projects potential increase in income and visualizes the comparison of income against one's current earnings. Built with React and Redux.</p>
-          <a href="compound.careers" target="_blank" rel="noopener noreferrer">Link to project</a>
+          <a href="https://compound.careers" target="_blank" rel="noopener noreferrer">Link to project</a>
           <br />
           <br />
           <a href="https://github.com/LambdaWinter19Hackathon-Calculator/Hackathon_Income_Calculator" target="_blank" rel="noopener noreferrer">Link to Github repo</a>
