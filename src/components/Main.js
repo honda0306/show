@@ -68,10 +68,10 @@ class Main extends React.Component {
             <li className="listItem">GraphQL</li>
             <li className="listItem">Git</li>
           </ul>
-          <h3 className="major">Resume</h3>
+          {/* <h3 className="major">Resume</h3>
           <ul>
             <li><a href="https://resume.creddle.io/resume/h6uzm4ghs2y" target="_blank" rel="noopener noreferrer">Link to Resume</a></li>
-          </ul>
+          </ul> */}
 
           {/* <h3 className="major">Education</h3>
           <ul>
