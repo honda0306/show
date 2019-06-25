@@ -12,13 +12,13 @@ const Header = (props) => (
                 <h1>Chris Honda</h1>
                 <p>Full-stack software developer. Security enthusiast. </p>
                 <p>Former investment professional. Chicken teriyaki connoisseur.</p>
-                {/* <h2>Welcome, friends.</h2> */}
             </div>
         </div>
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Blog</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>My Work</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('security')}}>Security</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
