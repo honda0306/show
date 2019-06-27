@@ -15,8 +15,13 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Blog</h2>
-          {/* <span className="image main"><img src={headshot} alt="" /></span> */}
           <p>Links to articles and videos will be uploaded shortly.</p>
+          {close}
+        </article>
+        
+        <article id="security" className={`${this.props.article === 'security' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Security</h2>
+          <p>Links to articles will be uploaded shortly.</p>
           {close}
         </article>
 
@@ -40,10 +45,6 @@ class Main extends React.Component {
           <a href="https://github.com/LambdaWinter19Hackathon-Calculator/Hackathon_Income_Calculator" target="_blank" rel="noopener noreferrer">Link to Github repo</a>
           {close}
         </article>
-        
-        <article id="security" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2>Security</h2>
-        </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <div className="stack">
@@ -52,7 +53,7 @@ class Main extends React.Component {
           <div className="bio">
             <img className="headshot" src={headshot} alt='' />
             <div className="biotext">
-              <p>Recent Lambda School graduate, where I learned how to learn about technology.</p>
+              <p>Lambda School graduate, where I learned how to learn about technology.</p>
               <p>Holder of FINRA Series 7 & 63 finance licenses, which taught me that some risks are worth taking.</p>
               <p>Volunteered in South Korea for 2 years, and found that being kind is more important than being smart.</p>
             </div>
