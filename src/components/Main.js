@@ -111,8 +111,8 @@ class Main extends React.Component {
           <p>I am happy to speak with you about your project requirements. Please feel free to reach out!</p>
           <h3>Email:</h3>
           <p>christopher.honda92@gmail.com</p>
-          <h3>Phone:</h3>
-          <p>(916) 709-8892</p>
+          {/* <h3>Phone:</h3>
+          <p></p> */}
           <ul className="icons">
             <li><a href="https://twitter.com/chrishonda0716" target="_blank" rel="noopener noreferrer" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="https://linkedin.com/in/ichirohonda" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">Instagram</span></a></li>
