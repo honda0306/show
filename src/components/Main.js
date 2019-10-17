@@ -24,6 +24,12 @@ class Main extends React.Component {
           <p>Links to articles will be uploaded shortly.</p>
           {close}
         </article>
+        
+        <article id="experience" className={`${this.props.article === 'experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Experience</h2>
+          <p>Links to articles will be uploaded shortly.</p>
+          {close}
+        </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Portfolio</h2>
